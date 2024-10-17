@@ -1,0 +1,419 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    /* box-sizing: border-box; */
+}
+body{
+    overflow-x: hidden;
+}
+/* nav bar styling */
+nav{
+    /* background-color: aqua; */
+   width: 100%;
+   height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px;
+   
+}
+
+li{
+    margin: 40px;
+}
+h1{
+    
+    margin-right: 200px;
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+}
+a{
+    color: #481E14;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+/* div 1 styling */
+   
+.div1{
+    font-family: "Send Flowers", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    padding: 45px;
+    /* padding-left: 85px; */
+    background-image: url(./images/melt\ choc\ 1.jpg);
+    height: 700px;
+     width: 80%;
+     margin-left: 85px;
+   
+}
+.sliderimg{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 75%;
+    bottom: 330px;
+    
+    
+}
+/* div 2 styling */
+.div2{
+    padding-left: 10px;
+    margin: 85px;
+    margin-top: 100px;
+   
+}
+.img2{
+    height: 350px;
+    width: 35%  ;
+    position: absolute;
+    left: 900px;
+    top: 1050px;
+}
+
+
+h2{
+    color: aliceblue;
+    font-size: 50px;
+}
+h3{
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-size: 100px;
+    font-weight: 800;
+}
+span{
+    color: aliceblue;
+    font-size: 150px;
+}
+
+
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 150;
+    font-size: 20px;
+    /* color:  violet; */
+    padding: 45px;
+    padding-left: 25px;
+   height: 100px;
+   width: 60%;
+}
+.readmore{
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-weight: 400;
+    font-size: 40px;
+
+}
+/* div 3 styling */
+.div3{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 85px;
+    padding-left: 85px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.chocoimg1,.chocoimg2,.chocoimg3{
+    margin: 50px;
+
+}
+.choc1:hover, .choc2:hover, .choc3:hover, .but:hover{
+    box-shadow: 2px 2px 4px 4px lightgray;
+    border: none;
+    display: inline-block;
+}
+
+.but{
+    color:white;
+/*display: none;*/
+    background-color: white;
+    border: 1px solid brown;
+    height: 100px;
+    width: 100%;
+    margin-top:0px;
+    border: none;   
+}
+ .but:hover{
+    margin-top:50px;
+   height: 100px; 
+   width: 100%;
+    background-color: brown;
+      
+} 
+
+.choc1{
+   
+    border: 1px solid black;
+    height: 500px;
+    width: 30%;
+}
+.choc2{
+   
+    /* margin: auto; */
+    border: 1px solid black;
+    height: 500px;
+    width: 30%;
+}
+.choc3{
+   
+    /* margin: auto; */
+    border: 1px solid black;
+    height: 500px;
+    width: 30%;
+}
+
+.head2{
+    color: black;
+
+}
+.h3{
+    color: black;
+}
+/* div 4 styling */
+
+.div4{
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-weight: 400;
+    font-size: 40px;
+    margin: 50px;
+    margin-right: 100px;
+    border: 1px solid black;
+    height: 500px;
+    width: 80%;
+   text-align: center;
+   margin-left: 85px;
+}
+.div4img{
+    position: relative;
+    left: 18%;
+    top: -220px ;
+}
+.dp4{
+    font-size: 100px;
+    font-weight:550;
+    
+}
+.dp5{
+    font-size: 40px;
+    font-weight: 550;
+}
+.dp6{
+    font-size: 40px;
+    font-weight: 550;
+    position: relative;
+    right: 20px;
+}
+.button4{
+    height: 40px;
+    width:180px;
+    background-color: black;
+    color: white;
+}
+
+.cnt3{
+    padding-top: 50px;
+}
+
+
+.button4:hover{
+    background-color: white;
+    color: black;
+}
+/* div 5 styling */
+.div5{
+    /* background-color: brown; */
+    margin: 100px;
+}
+.div5-1{
+    position: absolute;
+    left: 50%;
+    top:3100px;
+   background-color:#481E14;
+   height: 800px;
+    width: 40%;
+    font-size: 25px;
+    color: white;
+}
+.div5img{
+    margin-left: 155px;
+    margin-top: -40px;
+}
+.p5{
+    color:aliceblue;
+    /* float:inline-start; */
+    /* text-align:start; */
+    position: relative;
+    top: -180px;
+    left: 150px;
+   
+   
+}
+.climg{
+  /* float: left; */
+  position: relative;
+  right:80px;
+  border: 1px solid lightgray;
+
+}
+.test{
+    margin: 50px;
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-weight: 400;
+   text-align: center;
+}
+.appform{
+    margin: 50px;
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-weight: 650;
+   color: black;
+
+}
+/* div 6 styling */
+.div6{
+    margin-top: 300px;
+    padding: 85px;
+    display: flex;
+   align-content: space-around;
+   
+}
+.form:hover{
+    background-color: white;
+    color: black;
+
+}
+input{
+    font-size: 25px;
+    font-weight:100;
+    /* padding-left: 10px; */
+    text-align: start;
+    margin: 20px;
+    height: 80px;
+    width: 500px;
+
+}
+.msg{
+    height:160px ;
+    width: 500px;
+    
+}
+.form{
+    background-color: #481E14;
+    margin-left: 20px;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+map{
+    padding-top: 120px;
+}
+/* Footer  styling */
+footer{
+    background-color: black;
+    color: azure;
+    margin: 80px;
+}
+.foot{
+    display: flex;
+    align-content:start;
+    justify-content: center;
+}
+.ulh{
+    font-family: "Send Flowers", cursive;
+    font-style: normal;
+   font-weight: 400;
+    font-size: 40px;
+
+}
+.pfoot{
+    height: 75px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.instaimg{
+    border: 1px solid black;
+    height:60px;
+    width: 60px;
+    float: left;
+    background-color:white;
+}
+
+.ulinp{
+    height: 50px;
+    width: 50%;
+    margin-left: 140px;
+}
+.ul0{
+    display: flex;
+}
+.ulinput{
+    height: 54px;
+    width: 55px;
+   position: relative;
+   right: 19px;
+   top: 19px;
+    bottom: 5px;
+    color: white;
+    background-color:brown;
+    border: 1px solid brown ; 
+    font-size: 20px;
+}
+.ulinput:hover{
+    background-color: black;
+    color: brown;
+}
+.ul2{
+    width: 30%;
+
+}
+.ulp1{
+    width: 200px;
+}
+.ul1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.ul2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.ul3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.ul4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.symb{
+    box-sizing: border-box;
+    padding:18px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+
+/* copy right styling */
+.copyright{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
